@@ -1,0 +1,34 @@
+# CubeIDE / GCC Build Outputs
+**/Debug/
+**/Release/
+**/*.elf
+**/*.bin
+**/*.hex
+**/*.map
+**/*.lst
+**/*.o
+**/*.d
+
+# IDE & Toolchain files
+**/.project
+**/.cproject
+**/.settings/
+**/*.launch
+**/.clang-format-ignore
+
+# CMake build directories & generated artifacts
+build/
+**/build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CMakeLists.txt.user
+Makefile
+
+.cache/
+**/.cache/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
